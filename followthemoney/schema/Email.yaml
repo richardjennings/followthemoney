@@ -24,7 +24,8 @@ Email:
     subject:
       label: Subject
       type: string
-      caption: true
+      caption:
+        - true
     threadTopic:
       label: Thread topic
       type: string

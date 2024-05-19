@@ -31,7 +31,8 @@ Document:
       label: "Title"
       type: string
       rdf: http://purl.org/dc/elements/1.1/title
-      caption: true
+      caption:
+        - true
     author:
       label: "Author"
       description: "The original author, not the uploader"

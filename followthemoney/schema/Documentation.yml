@@ -4,7 +4,8 @@ Documentation:
   description: >
     Links some entity to a document, which might provide further detail or 
     evidence regarding the entity.
-  extends: Interest
+  extends:
+    - Interest
   matchable: false
   featured:
     - document
@@ -18,7 +19,8 @@ Documentation:
     label: "documents"
     target: entity
     directed: false
-    caption: role
+    caption:
+      - role
   properties:
     document:
       label: "Document"
